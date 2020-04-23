@@ -1,0 +1,79 @@
+@font-face{
+  font-family: 'fuente-principal';
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'fuente-principal';
+  background: white;
+}
+.formulario{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  text-align: center;
+  border-radius: 30px;
+  
+}
+.formulario h1{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 4em;
+}
+.formulario label{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2em;
+}
+.crearcuenta{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+}
+.formulario input[type = "text"],.formulario input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3E096D;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-size: 22px;
+  font-family: 'fuente-principal';
+}
+.formulario input[type = "text"]:focus,.formulario input[type = "password"]:focus{
+  width: 280px;
+  border-color: black;
+}
+.formulario input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3E096D;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 22px;
+  font-family: 'fuente-principal';
+  
+}
+.formulario input[type = "submit"]:hover{
+  background: #3E096D;
+}

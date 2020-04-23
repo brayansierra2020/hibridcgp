@@ -1,0 +1,103 @@
+@font-face{
+    font-family: 'font-family: 'PT Serif', serif'; 
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'font-family: 'PT Serif', serif';
+    background: white;
+  }
+
+  .formulario{
+    width: 500px;
+    padding: 30px 30px;
+    margin: 10px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    text-align: center;
+    height: 100%;
+  }
+  .formulario h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+  .formulario label{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 5px 5px;
+    margin: 50px ; 
+    text-align: center;
+  }
+  .formulario td{
+    width: 55%;
+  }
+  .InicioSession{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .formulario .select-option{
+    background: none;
+   display: block;
+   margin: 10px auto;
+   text-align: center;
+   border: 2px solid #3E096D;
+   padding: 5px 5px;
+   width: 130px;
+   outline: none;
+   color: gray;
+   border-radius: 24px;
+   transition: 0.25s;
+   font-size: 20px;
+   font-family: 'fuente-principal'; 
+ }
+  .formulario input[type = "text"],.formulario input[type = "password"],
+  .formulario input[type = "date"],.formulario input[type = "number"]{
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #3E096D;
+    padding: 5px 5px;
+    width: 130px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-size: 20px;
+    font-family: 'fuente-principal';
+  }
+  .formulario input[type = "text"]:focus,.formulario input[type = "password"]:focus,
+  .formulario input[type = "date"]:focus,.formulario input[type = "number"]:focus{
+    width: 140px;
+    border-color: black;
+  }
+  .formulario input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3E096D;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'fuente-principal';
+    
+  }
+  .formulario input[type = "submit"]:hover{
+    background: #3E096D;
+  }
+  
